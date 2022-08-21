@@ -9,13 +9,22 @@ function fiyatHesapla(){
     to = document.getElementById("to").value;
     
 
+    if(from == "galatakulesi" && to == "galatakulesi"){
+        document.getElementById("result").innerHTML = "0 TL";
+    }
+
+    if(from == "galatakulesi" && to == "topkapısarayı"){
+        document.getElementById("result").innerHTML = "100 TL";
+    }
+
+    if(from == "galatakulesi" && to == "ayasofya"){
+        document.getElementById("result").innerHTML = "150 TL";
+    }
 
 
 
 
-
-
-    
+    /*
     if(from == "galatakulesi"){
         if(to == "galatakulesi"){
             document.getElementById("result").innerHTML = 
@@ -63,7 +72,7 @@ function fiyatHesapla(){
             "AYASOFYA - AYASOFYA" + "<br>" + "<strong>0</strong> TL";
         }
     }
-    
+    */
 
 
     
