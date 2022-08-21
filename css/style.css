@@ -1,0 +1,46 @@
+body{
+    background-color: #C5529B;
+}
+
+.container{
+    background-color: #E69EC0;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div > label{
+    color: #2DBC8E;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#from, #to{
+    font-size: 40px;
+}
+
+#result{
+    color: #D25B53;
+    font-size: 32px;
+}
+
+
+input[type="submit"]{
+    padding: 20px 40px;
+    font-size: 34px;
+    color: white;
+    background-color: #C5529B;
+}
+
+input[type="submit"]:hover{
+    color: #C5529B;
+    background-color: white;
+}
+
+div{
+    margin: 30px 0;
+ }
